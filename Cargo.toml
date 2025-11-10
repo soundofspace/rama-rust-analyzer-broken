@@ -1,0 +1,8 @@
+[package]
+name = "rama-rust-analyzer-broken"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = {version = "1.48.0", features = ["macros", "rt-multi-thread"]}
+tokio-test = "0.4.4"
